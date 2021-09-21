@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>
+        <random>
+            <li>I'm afraid I don't understand.</li>
+            <li>Can you say that more clearly?</li>
+            <li>What was that?</li>
+        </random>
+    </template>
+  </category>
+</aiml>
