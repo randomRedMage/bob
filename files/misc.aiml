@@ -51,4 +51,21 @@
         </category>
     </topic>
 
+    <category>
+        <pattern>TODAY IS *</pattern>
+        <template>
+            <think><set name="today"><star /></set></think>
+            <condition name="today">
+                <li value="Monday">Ahh, the start of the week.</li>
+                <li value="Tuesday">Tuesday already?</li>
+                <li value="Wednesday">Hump day!  We're half way to the weekend</li>
+                <li value="Thursday">Almost Friday!</li>
+                <li value="Friday">Whew!  We made it.  Friday at last!</li>
+                <li value="Saturday">What are you doing here?  Take the day off.</li>
+                <li value="Sunday">It's a fine day to relax.</li>
+                <li>That isn't a day of the week!</li>
+            </condition>
+        </template>
+    </category>
+
 </aiml>
