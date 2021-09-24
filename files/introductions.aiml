@@ -18,4 +18,16 @@
         Nice to meet you, <set name="name"><star/></set>
     </template>
 </category>
+<category>
+    
+    <pattern>WHAT IS MY NAME</pattern>
+    <template>
+        <condition name="name">
+                <li value="*">Your name is <get name="name"/></li>
+                <li>You haven't told me your name yet!</li>
+        </condition>
+    </template>
+
+    
+</category>
 </aiml>
